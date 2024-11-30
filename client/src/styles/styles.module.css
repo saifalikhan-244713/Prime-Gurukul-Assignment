@@ -1,0 +1,231 @@
+#signupParent {
+  padding: 25px 25px;
+  height: 100vh;
+  max-width: 1600px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  background: linear-gradient(to bottom right, white, rgb(230, 248, 230));
+}
+#signupRight {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  width: 500px;
+}
+#signupLeft {
+  width: calc(100% - 500px);
+}
+label {
+  color: #2d2b2b;
+}
+#signupRight input {
+  width: 220px;
+  padding-left: 7px;
+  height: 35px;
+  padding-bottom: 2px;
+  border: 1px solid #e6e1e1;
+  border-radius: 6px;
+}
+#signupRight p {
+  font-size: 14px;
+}
+#signupRight form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+#signupBtn {
+  width: 220px;
+  height: 35px;
+  background-color: rgb(27, 71, 27);
+  border: none;
+  border-radius: 7px;
+  color: white;
+}
+.p1 {
+  font-weight: 400;
+  position: relative;
+  bottom: 8px;
+}
+#loginLink {
+  width: 220px;
+}
+#loginLink a {
+  color: orange;
+  text-decoration: none;
+}
+#loginParent {
+  padding: 25px 25px;
+  height: 100vh;
+  max-width: 1600px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  background: linear-gradient(to bottom right, white, rgb(230, 230, 250));
+}
+
+#loginRight {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  width: 400px;
+}
+
+#loginLeft {
+  width: calc(100% - 400px);
+}
+
+label {
+  color: #2d2b2b;
+}
+
+#loginRight input {
+  width: 370px;
+  padding-left: 7px;
+  height: 35px;
+  padding-bottom: 2px;
+  border: 1px solid #e6e1e1;
+  border-radius: 6px;
+}
+
+#loginRight p {
+  font-size: 14px;
+}
+
+#loginRight form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+#loginBtn {
+  width: 370px;
+  height: 35px;
+  background-color: rgb(27, 71, 27);
+  border: none;
+  border-radius: 7px;
+  color: white;
+}
+
+#signupLink {
+  width: 370px;
+}
+
+#signupLink a {
+  color: orange;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1100px) {
+  #signupLeft {
+    width: calc(100% - 360px);
+  }
+  #signupRight input {
+    width: 160px;
+  }
+  #signupRight {
+    width: 360px;
+  }
+  #signupBtn {
+    width: 160px;
+  }
+  #loginLink {
+    width: 160px;
+  }
+  p {
+    font-size: 12px !important;
+  }
+  #loginLeft {
+    width: calc(100% - 320px);
+  }
+  #loginRight {
+    width: 320px;
+  }
+  #signupLink {
+    width: 300px;
+  }
+  #loginBtn {
+    width: 300px;
+  }
+  #loginRight input {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #signupLeft {
+    display: none;
+    margin: 0 auto;
+  }
+  #signupParent {
+    background: url("../images/signup.jpg");
+    background-size: contain;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  #loginLeft {
+    display: none;
+    margin: 0 auto;
+  }
+  #loginParent {
+    background: url("../images//login.jpg");
+    background-size: contain;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+  }
+  #signupLink {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 404px) {
+  #signupParent {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  #signupRight form {
+    justify-content: center;
+  }
+  #signupRight input {
+    width: 100%;
+    height: 30px;
+  }
+  #signupRight form div {
+    width: 100%;
+  }
+  #loginLink {
+    text-align: center;
+    width: 100%;
+  }
+  #signupBtn {
+    width: 100%;
+    height: 30px;
+  }
+  #loginRight form {
+    justify-content: center;
+  }
+  #loginRight input {
+    width: 100%;
+    height: 30px;
+  }
+  #loginRight form div {
+    width: 100%;
+  }
+  #signupLink {
+    width: 100%;
+  }
+  #loginBtn {
+    width: 100%;
+    height: 30px;
+  }
+}
